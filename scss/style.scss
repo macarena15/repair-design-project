@@ -1,0 +1,124 @@
+body{height:100%;width:1440px;margin:0 auto;background:gray;box-sizing:border-box}.header{display:flex;justify-content:space-between}
+
+body{
+	height: 100%;
+	width: 1440px;
+	margin: 0 auto;
+	background: gray;
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 16px; 
+	padding: 36px 100px 36px 82px;
+	color: white;
+}
+.header__list--nav a{
+	padding-left: 47px;
+	text-decoration: none;
+}
+.container {
+	height: 1865px;
+	background-color: black;
+
+}
+.header__logo, .header__phone a, .header__list a:first-child {
+	color: #E3B873;
+}
+.header__button--bcall {
+	height: 37px;
+	width: 161px;
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+}
+
+/* INSTAGRAM BLOCK */
+.instagram {
+ display: flex;
+ position: relative;
+
+}
+.instagram_word{
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #E3B873;
+padding-top: 347px;
+transform: rotate(90deg);
+}
+.instagram_text{
+	position: absolute;
+	left: 142px;
+	top: 192px;
+	
+}
+.instagram_text h2{
+	font-size: 40px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: white;
+}
+.instagram_text p{
+	font-size: 22px;
+	line-height: 30px;
+	color: white;
+	height: 89px;
+	width: 504px;
+}
+.instagram_button{
+	display: inline-block;
+	position: absolute;
+	left: 142px;
+	top: 460px;
+}
+.instagram_button button{
+	height: 51px;
+	width: 207px;
+}
+//* --------  MAIN---------- *//
+$font1 :  14px;
+$orange :  #E3B873;
+
+
+.main {
+	
+	.main__header{
+		color: rgba(255, 255, 255, 0.3);
+		font-size: $font1;
+		margin-left: 600px;
+		margin-right: 220px;
+		a{
+			text-decoration: none;
+			margin-right: 60px;
+			&:hover {
+				color: $orange;
+				text-decoration: underline;
+			}
+		}
+	}
+	.main__content{
+		display: flex;
+		justify-content: space-between;
+	 	.main__content_text{
+	 		h4, h1 {
+	 			color: $orange
+	 		}
+	 		p{
+	 			color: white;
+	 		}
+			.main__content_text_param {
+				display:grid;
+				 grid-template-columns: 200px 200px;
+				 grid-row: auto auto;
+				 grid-column-gap: 20px;
+				 grid-row-gap: 20px;
+			}
+		}
+	}
+}
+
+
